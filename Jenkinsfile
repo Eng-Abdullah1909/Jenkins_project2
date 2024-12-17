@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        Maven "M398"
+        maven "M398"
     }
     stages {
         stage(' Echo Version'){
